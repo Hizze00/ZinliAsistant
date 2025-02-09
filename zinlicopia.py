@@ -28,7 +28,7 @@ HEADERS = {
 
 checking_active = False  # Estado del chequeo automático
 interval = 3600  # Intervalo en segundos (1 hora por defecto)
-check_interval = 25  # Intervalo de revisión de cuentas en segundos (25 segundos)
+check_interval = 60  # Intervalo de revisión de cuentas en segundos (25 segundos)
 history = []  # Lista para almacenar el historial de correos revisados
 auto_check_task = None  # Tarea asíncrona para el chequeo automático
 
